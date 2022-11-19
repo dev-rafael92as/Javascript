@@ -1,0 +1,39 @@
+div {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto 0;
+}
+
+div label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.btn-search {
+    margin-top: 10px;
+}
+
+.card-filme {
+    margin: 40px auto 0;
+    max-width: 550px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-area: 10px;
+
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    padding: 20px;
+}
+
+.infos {
+    margin-left: 40px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Lista de Filmes</title>
+    </head>
+    <body>
+
+        <div>
+            <label for="search">
+                Pesquise um nome de Filme
+                <input type="text" name="search" id="search" placeholder="Digite um nome">
+            </label>
+
+            <button class="btn-search" onclick="handleSearch()">Pesquisar</button>
+        </div>
+
+        <div class="card-filme">
+            <div class="image">
+                <img src="https://m.media-amazon.com/images/M/MV5BZDNjOGNhN2UtNmNhMC00YjU4LWEzMmUtNzRkM2RjN2RiMjc5XkEyXkFqcGdeQXVyMTU0OTM5ODc1._V1_SX300.jpg" alt="">
+            </div>
+            <div class="infos">
+                <h2>Título Filme</h2>
+                <p>Diretor Filme</p>
+                <p>Genero(s)</p>
+                <p>Descrição curta Filme</p>
+                <p>Ano do Filme</p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
